@@ -8,7 +8,6 @@
         box-sizing: border-box;
     }
     body{
-        background-image: url(images/hero-bg.svg);
         font-family: Averta, sans-serif;
     }
     :root{
@@ -22,19 +21,20 @@
     --breakpoint-lg: 992px;
     --breakpoint-xl: 1200px;
 }
-/* .hero-section{
+.hero-section{
+    background-image: url(images/hero-bg.svg);
     
-} */
-.hero-img{
-    padding: 5rem;
-    display: flex;
-    justify-content: center;
-
 }
 .hero{
     margin: 0 auto;
     padding: 2rem;
     max-width: 1440px;
+}
+.hero-img{
+    padding: 5rem;
+    display: flex;
+    justify-content: center;
+
 }
 .hero h2{
     text-align: center;
@@ -46,9 +46,7 @@
     line-height: 1.5rem;
     color: #514949;
     margin-bottom: 4rem;
-    width: 600px;
-    height: 72px;
-
+   
 }
 a {
     color: #E7332B;
@@ -205,8 +203,10 @@ footer hr {
     font-size: 1rem;
     line-height: 1.5rem;
     font-weight: bold;
-    margin-top: 2rem;
-    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    /* margin: auto; */
+    text-align: center;
 }
 @media screen and (max-width: 792px){
     .hero{
